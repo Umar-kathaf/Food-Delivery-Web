@@ -109,7 +109,8 @@
 @media (max-width: 768px) {
   .contact {
     gap: 50px;
-    margin: 50px 70px;
+    /* margin: 50px 70px; */
+    margin-left: 50px;
     align-items: start;
   }
   .contact-title h1 {
@@ -133,11 +134,11 @@
     font-size: 20px;
   }
   .contact-right input {
-    width: 100%;
+    width: 50%;
     font-size: 20px;
   }
   .contact-right textarea {
-    width: 95%;
+    width: 50%;
     font-size: 20px;
   }
   .Contact-submit {
