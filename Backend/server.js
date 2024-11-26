@@ -26,7 +26,7 @@ app.use("/api/order", orderRouter);
 
 // Check the port is working or not
 app.get("/", (req, res) => {
-  res.send("API working");
+  res.send("API Done");
 });
 
 app.listen(PORT, () => {
