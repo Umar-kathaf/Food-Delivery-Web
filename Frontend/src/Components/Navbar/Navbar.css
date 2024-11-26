@@ -108,8 +108,8 @@
   .navbar-right {
     gap: 30px;
   }
-  .navbar-right img {
-    width: 22px;
+  .navbar-right .search-bar img {
+    width: 50px;
   }
   .navbar-right button {
     padding: 8px 25px;
@@ -127,7 +127,7 @@
     gap: 20px;
   }
   .navbar-right img {
-    width: 20px;
+    width: 50px;
   }
   .navbar-right button {
     padding: 7px 20px;
@@ -145,6 +145,9 @@
     width: 17px;
   }
   .navbar-right .cart-img {
+    width: 17px;
+  }
+  .navbar-right .search-bar {
     width: 17px;
   }
   .navbar-right button {
