@@ -34,7 +34,7 @@ const removeFromCart = async (req, res) => {
   }
 };
 
-// fetch usercar data
+// fetch usercart data
 const getCart = async (req, res) => {
   try {
     let userData = await userModel.findById(req.body.userId);
