@@ -1,5 +1,5 @@
 import express from "express";
-import cros from "cors";
+import cors from "cors";
 import { connectDB } from "./Config/DB.js";
 import foodRouter from "./Routes/Foodroute.js";
 import userRouter from "./Routes/Userroute.js";
@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 // middleware
 app.use(express.json());
-app.use(cros());
+app.use(cors());
 
 // DB Connection
 connectDB();
